@@ -1,4 +1,4 @@
-# Movie Stub Memory Box
+# Multi Language Tip Calculator
 
 ## Badges
 
@@ -6,17 +6,16 @@
 
 ## Description
 
-Movies have always been a large part of my life.  Getting to go to the theatre was something special and to be remembered. Over time it has become harder to hold onto the memories via the  ticket stubs. 
+As a first project outside of my Bootcamp experience, I wanted to create a Tip Calculator that you would be able to use in multiple languages and also using a database. 
 
-As a movie theatre-goer, I want to be able to archive my experiences so I can reflect and share my history going to the cinemas.
-
+As a customer, I want to calculate tips so I can save time while paying.
 
 
 Additional usage:
 
-- Movie Posters load to help identify the movie that was seen.
-- Notes section for items like event details, date, who you saw it with, thoughts about the movie.
-- Additional entry box to document if you saw the movie in theatres more than once. 
+- There is to be a sliding bar to select a different or more specific percentage.
+- Provide quick select buttons for faster more used percentage calculations.
+- Have an option to be able to change the language on the tip calculator for wider audience of use. 
 
 
 ## Table of Contents
