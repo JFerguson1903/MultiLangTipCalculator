@@ -1,9 +1,20 @@
 // BillBeforeTip variable that pulls what was entered into the field
-var BillBeforeTip = $("#BillBeforeTip").val();
+let BillBeforeTip = $("#BillBeforeTip").val();
 
-var TipSlider = $("#TipSlider").val();
+let TipSlider = $("#TipSlider").val();
 
-var TipQuickSelect = $("#TipQuickSelect").val();
+let TipQuickSelect = $("#TipQuickSelect").val();
+
+var TipPercent = 10;
+var TipPercentDecimal = TipPercent/100;
+var Amount = 78.35;
+var TipAmount = Math.round(((Amount * TipPercentDecimal) + Number.EPSILON) * 100) / 100;
+var TotalBill = Math.round(((TipAmount + Amount) + Number.EPSILON) * 100) / 100;
+
+console.log(TipPercentDecimal);
+
+// function for calculating tip after percent is selected
+
 
 // https://codepen.io/nerooc/pen/WNQJRKP - used as basis for Language selector
 $(function(){
